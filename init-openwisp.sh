@@ -1,5 +1,8 @@
 #! /bin/sh
 
+mkdir /dev/net
+mknod /dev/net/tun c 10 200
+
 sed \
   -i /etc/config/openwisp \
   -e "s+option url '.*+option url '${OPENWISP_URL}'+g" \
