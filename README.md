@@ -9,3 +9,8 @@ Usage:
       -e OPENWISP_UUID=aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa \
       -e OPENWISP_KEY=aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa \
       cloudberry-lede-openwisp-docker:latest
+
+## See also
+
+* [djangoproject](https://github.com/innovationgarage/cloudberry-djangoproject) - Centralized configuration web UI
+* [docker-manager](https://github.com/innovationgarage/cloudberry-docker-manager) - OpenWISP front-end to docker
